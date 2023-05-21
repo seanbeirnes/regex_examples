@@ -4,11 +4,15 @@
 The following regex expression will identify the current YouTube url formats, including the video id. The regex expression will identify all current YouTube URLs.
 
 ## Use Cases
-  1. Validating that a url is a YouTube url
-  2. Finding a YouTube url in a string so the video ID can be extracted from it.
+* Validating that a url is a YouTube url
+* Finding a YouTube url in a string so the video ID can be extracted from it.
 
 ## Regex Code
+```
 /https?:\/\/.*?((m\.)|(www\.))?((youtube(\-nocookie)?\.com)|(youtu\.be))\/((.*watch%3Fv%3D)|(((watch\?.*v(=|%3D))|((e\/)|(v\/)))?|(embed\/)))[a-zA-Z0-9_\-]{11}/
+```
+## Testing
+Testing was conducted using [regex101](https://regex101.com/ "regex101").
 
 ## Current YouTube URL Formats Identified
 http://www.youtube.com/watch?v=NSU23_C3fiw
