@@ -9,7 +9,7 @@ The following regex expression will identify the current YouTube url formats, in
 
 ## Regex Code
 ```
-/https?:\/\/.*?((?:m\.)|(?:www\.))?((?:youtube(?:\-nocookie)?\.com)|(?:youtu\.be))\/(?:(?:.*watch%3Fv%3D)|(?:(?:(?:watch\?.*v(?:=|%3D))|(?:(?:e\/)|(?:v\/)))?|(?:embed\/)))([a-zA-Z0-9_\-]{11})/
+/https?:\/\/.*?(?:(?:m\.)|(?:www\.))?(?:(?:youtube(?:\-nocookie)?\.com)|(?:youtu\.be))\/(?:(?:.*watch%3Fv%3D)|(?:(?:(?:watch\?.*v(?:=|%3D))|(?:(?:e\/)|(?:v\/)))?|(?:embed\/)))([a-zA-Z0-9_\-]{11})/
 ```
 ## Testing
 Testing was conducted using [regex101](https://regex101.com/ "regex101").
